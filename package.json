@@ -1,0 +1,47 @@
+{
+  "name": "feishu-robot",
+  "version": "1.0.0",
+  "description": "飞书机器人消息推送 Nodejs SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilywang711/feishu-robot.git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "keywords": [
+    "飞书",
+    "机器人",
+    "群消息推送",
+    "nodejs",
+    "sdk"
+  ],
+  "author": "lilywang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilywang711/feishu-robot/issues"
+  },
+  "homepage": "https://github.com/lilywang711/feishu-robot#readme",
+  "dependencies": {
+    "axios": "^0.21.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none",
+    "arrowParens": "avoid"
+  }
+}
