@@ -1,10 +1,11 @@
 {
-  "name": "feishu-robot",
+  "name": "vanilla-feishu-robot",
   "version": "1.0.0",
   "description": "飞书机器人消息推送 Nodejs SDK",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access public"
   },
   "files": [
     "index.js",
