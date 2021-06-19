@@ -1,6 +1,6 @@
 {
   "name": "vanilla-feishu-robot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "飞书机器人消息推送 Nodejs SDK",
   "main": "index.js",
   "scripts": {
